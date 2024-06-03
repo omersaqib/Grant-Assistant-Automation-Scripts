@@ -57,6 +57,20 @@ Cypress.Commands.add('login', () => {
         //  cy.get('._textarea_13lnu_13').type("This is Idea{enter}")
     
 });
+let proposalName;
+
+Cypress.Commands.add('setProposalName', (value) => {
+    proposalName = value;
+    cy.log(`Proposal name: ${proposalName}`);
+});
+
+Cypress.Commands.add('openProposal', () => {
+    
+  cy.get('a svg').should('be.visible');
+  cy.get('a svg').eq(1).click(); 
+cy.contains('div.cursor-pointer.text-primary', "OmerAutomationtestproposal").should("be.visible").click();
+    
+});
   
   
   //UPLOADING RFP

@@ -36,8 +36,8 @@ describe("IMPORT", () => {
       cy.contains("button","Next").should("be.visible").click();
       cy.wait(4000);
       const randomNumber = Math.floor(Math.random() * 1000); 
-      const proposalName = `OmerAutomationtestproposal${randomNumber}`;
-      cy.get('.gap-6 > .flex-col > .border').type(proposalName)
+      const proposalName = `OmerAutomationtestproposal`;
+      cy.get('.gap-6 > .flex-col > .border').type("OmerAutomationtestproposal");
       cy.contains('button', "Complete Setup").should('be.visible').click();
     });
     });
