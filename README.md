@@ -15,16 +15,16 @@ Git
 # 🛠️ Getting Started
 1. 🔁 Clone the Repository:
 
-git clone https://github.com/omersaqib/GA-SMOKE-TEST-CASES-CYPRESS
-cd GA-SMOKE-TEST-CASES-CYPRESS
+ git clone https://github.com/omersaqib/GA-SMOKE-TEST-CASES-CYPRESS
+ cd GA-SMOKE-TEST-CASES-CYPRESS
 
 2. 📥 Install Dependencies
 
-npm install
+ npm install
 
 3. ⚙️ Environment Setup
 
-Create a .env file in the root directory of the project.
+ Create a .env file in the root directory of the project.
 
 
 
