@@ -1,12 +1,62 @@
-To run your Cypress tests in the demo environment, you can use one of these commands from your terminal:
-To run in headless mode:
-npx cypress run --env environment='Your Environment'
+🚀 Grant Assistant Test Automation
+Welcome to the Grant Assistant Test Automation repository!
+This project contains automated end-to-end tests for the Grant Assistant application using Cypress.
 
-To open Cypress Test Runner UI:
-npx cypress open --env environment='Your Environment'
+📦 Prerequisites
+Before you begin, ensure you have the following installed:
 
-To run a specific test file in the demo environment:
-npx cypress run --env environment='Your Environment' --spec "cypress/e2e/Happy Flows/formative_documents.cy.js"
-The environment='Your Environemnt' parameter will make your tests use https://{Your Environment}.grantassistant.ai as the base URL instead of the default dev environment.
-Make sure you're in your project's root directory when running these commands. Also ensure that you have the correct credentials set up in your 
-environment variables for the demo environment if they're different from dev.
+Node.js (v14 or higher)
+
+npm (comes with Node.js)
+
+Git
+
+🛠️ Getting Started
+1. 🔁 Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/your-repo/grant-assistant-test-automation.git
+cd grant-assistant-test-automation
+2. 📥 Install Dependencies
+bash
+Copy
+Edit
+npm install
+3. ⚙️ Environment Setup
+Create a .env file in the root directory of the project.
+
+🔒 Note: Contact the repository owner to get the required environment variables.
+
+🧪 Running the Tests
+You can run the Cypress tests in the demo environment using any of the following commands:
+
+▶️ Run in Headless Mode
+bash
+Copy
+Edit
+npx cypress run --env environment='demo'
+🧭 Open Cypress Test Runner UI
+bash
+Copy
+Edit
+npx cypress open --env environment='demo'
+📄 Run a Specific Test File
+bash
+Copy
+Edit
+npx cypress run --env environment='demo' --spec "cypress/e2e/Happy Flows/formative_documents.cy.js"
+ℹ️ The environment=demo flag ensures tests use https://demo.grantassistant.ai as the base URL.
+
+✅ Make sure you:
+
+Run these commands from the root directory.
+
+Have your .env file configured with the correct demo credentials if they differ from the dev environment.
+
+🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
+
+📄 License
+Distributed under the MIT License.
+
