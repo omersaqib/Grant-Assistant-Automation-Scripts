@@ -1,4 +1,4 @@
-# 🚀 Grant Assistant Test Automation
+# ![image](https://github.com/user-attachments/assets/fbaadcf0-24eb-47e2-a8ec-07c403e8311e) Grant Assistant Test Automation
 Welcome to the Grant Assistant Test Automation repository!
 This project contains automated end-to-end tests for the Grant Assistant application using Cypress.
 
