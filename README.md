@@ -15,8 +15,8 @@ Git
 # 🛠️ Getting Started
 1. 🔁 Clone the Repository:
 
-git clone https://github.com/your-repo/grant-assistant-test-automation.git
-cd grant-assistant-test-automation
+git clone https://github.com/omersaqib/GA-SMOKE-TEST-CASES-CYPRESS
+cd GA-SMOKE-TEST-CASES-CYPRESS
 
 2. 📥 Install Dependencies
 
